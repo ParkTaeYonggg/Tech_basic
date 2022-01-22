@@ -67,5 +67,9 @@ test("매우방가"); // <<< 이때 출력물 : 매우방가<br>
 
 <img width="300" alt="스크린샷 2022-01-22 오후 4 01 26" src="https://user-images.githubusercontent.com/86910922/150628591-f55c3cae-f830-4b5f-9ff8-56c1e6c55ad4.png"><img width="300" alt="스크린샷 2022-01-22 오후 4 02 26" src="https://user-images.githubusercontent.com/86910922/150628628-e41263ea-3f5e-493b-975d-4dd032dcc67e.png">
 
-
+## fetch vs axios
+- fetch 
+  ㄱ. 외부에서 가져올 필요가 없음. -> 자바스크립트 자체 지원
+- axios 
+  ㄱ. 외부에서 가져와야 함.
 
