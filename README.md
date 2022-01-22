@@ -13,6 +13,14 @@
 
 ## promise
 프로미스는 비동기 처리방식이다.<br>
+-> 프로미스 함수의 작동방식은 프로미스가 내장된 함수 실행 -> 비동기 실행되는 동안 대기상태 돌입 -> then으로 다음 액션 실행-> 반복됨.
+--> then으로 연결된 함수들은 전부 공통된 값을 공유함.
+---> then으로 연결된 함수에는 일반함수가 들어가도 됨. => 일반함수에서 변경된 값을 리턴받으면 변경된 값으로 다음 then이 실행됨.
+
+<img width="300" alt="스크린샷 2022-01-22 오후 5 16 22" src="https://user-images.githubusercontent.com/86910922/150630652-54ce07af-db51-4f05-9226-2cca8b0d8ca9.png"><img width="300" alt="스크린샷 2022-01-22 오후 5 16 14" src="https://user-images.githubusercontent.com/86910922/150630658-7f0225c2-fe35-4b47-a776-d0c37a28362e.png"><img width="300" alt="스크린샷 2022-01-22 오후 5 16 01" src="https://user-images.githubusercontent.com/86910922/150630666-bb857fa6-b624-4764-bcf8-5bef69485ed4.png">
+
+
+
 프로미스, 어싱크어웨잇 두가지가 존재하는데 저것들이 걸려 있으면 비동기 처리에도 순서가 적용되어 나름 체계적으로 활용할 수 있게 된다.
 
 ## arrow function
