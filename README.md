@@ -9,6 +9,11 @@
 위처럼 fn1에서의 메서드는 this를 찍어보면 자신을 불러낸 함수를 쳐다보고 있다. <br>
 그치만 fn2는 fn1에 있긴 하지만 따로 만들어지고 불려진 존재이다.<br>
 따로 만들어진 fn2는 당연히 fn1을 감싸는 함수 내에서 실행된 것이니 fn1을 감싸는 함수를 바라볼 것이다.
+
+
+<img width="400" alt="스크린샷 2022-01-22 오후 11 31 53" src="https://user-images.githubusercontent.com/86910922/150642769-cb672b51-1db9-4d2e-92c0-d08bc684add4.png">
+<img width="400" alt="스크린샷 2022-01-22 오후 11 31 36" src="https://user-images.githubusercontent.com/86910922/150642777-2b2e9926-6270-4422-8a7a-673c39cdd440.png">
+
 클로저는 외부에서 내부함수로 접근해 데이터를 사용하는 것이다. 그냥 테스트 해보았다.
 
 ## promise
