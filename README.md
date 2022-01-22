@@ -11,8 +11,13 @@
 따로 만들어진 fn2는 당연히 fn1을 감싸는 함수 내에서 실행된 것이니 fn1을 감싸는 함수를 바라볼 것이다.
 
 
-<img width="400" alt="스크린샷 2022-01-22 오후 11 31 53" src="https://user-images.githubusercontent.com/86910922/150642769-cb672b51-1db9-4d2e-92c0-d08bc684add4.png">
-<img width="400" alt="스크린샷 2022-01-22 오후 11 31 36" src="https://user-images.githubusercontent.com/86910922/150642777-2b2e9926-6270-4422-8a7a-673c39cdd440.png">
+<img width="400" alt="스크린샷 2022-01-22 오후 11 31 53" src="https://user-images.githubusercontent.com/86910922/150642769-cb672b51-1db9-4d2e-92c0-d08bc684add4.png"><img width="400" alt="스크린샷 2022-01-22 오후 11 31 36" src="https://user-images.githubusercontent.com/86910922/150642777-2b2e9926-6270-4422-8a7a-673c39cdd440.png">
+
+리액트에서는 작동방식이 좀 다르다. bind로 묶어줘야 한다. -> 바인드로 묶인 함수를 바라본다.
+자바크스립트에서라면 
+- 언디파인 자리가 버튼1을 가리킬 것이다.
+- 바인드로 묶지 않았다면 ii나 iii는 윈도우를 가리킬 것이다.
+- 바인드로 묶지 않고 thisFn에서 직접 inner함수를 불러오면 this는 그 함수를 호출시킨 thisFn을 바라볼 것이다.
 
 클로저는 외부에서 내부함수로 접근해 데이터를 사용하는 것이다. 그냥 테스트 해보았다.
 
