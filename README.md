@@ -19,9 +19,10 @@
 
 <img width="300" alt="스크린샷 2022-01-22 오후 5 16 22" src="https://user-images.githubusercontent.com/86910922/150630652-54ce07af-db51-4f05-9226-2cca8b0d8ca9.png"><img width="300" alt="스크린샷 2022-01-22 오후 5 16 14" src="https://user-images.githubusercontent.com/86910922/150630658-7f0225c2-fe35-4b47-a776-d0c37a28362e.png"><img width="300" alt="스크린샷 2022-01-22 오후 5 16 01" src="https://user-images.githubusercontent.com/86910922/150630666-bb857fa6-b624-4764-bcf8-5bef69485ed4.png">
 
+-------> 문제점은 분기처리도 어렵고 중간에 에러나면 어디서 난지 알 수 없다.
 
+## async/ await
 
-프로미스, 어싱크어웨잇 두가지가 존재하는데 저것들이 걸려 있으면 비동기 처리에도 순서가 적용되어 나름 체계적으로 활용할 수 있게 된다.
 
 ## arrow function
 화살표함수는 자신에게 바인딩하지 않는다.<br>
