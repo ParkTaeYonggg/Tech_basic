@@ -24,6 +24,13 @@
 
 ## async/ await
 
+어싱크 어웨잇은 프로미스의 업그레이드 버전이다.
+함수를 async로 감싸면 비동기 처리가 되고 await처리로 프로미스 함수 값을 변환해준다.
+
+<img width="400" alt="스크린샷 2022-01-22 오후 7 07 05" src="https://user-images.githubusercontent.com/86910922/150634395-2cd0a591-2ae8-45f1-a5de-0c1e87506c61.png"><img width="400" alt="스크린샷 2022-01-22 오후 7 07 15" src="https://user-images.githubusercontent.com/86910922/150634397-18324160-946e-4e7d-a714-cb826ec27652.png">
+
+위처럼 프로미스 객체가 아니면 await에 ...이 붙는 것을 알 수 있다.
+
 
 ## arrow function
 화살표함수는 자신에게 바인딩하지 않는다.<br>
