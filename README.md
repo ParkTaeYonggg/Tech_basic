@@ -65,6 +65,6 @@ test("매우방가"); // <<< 이때 출력물 : 매우방가<br>
 -> 맵은 리턴값을 가질 수 있다. 리턴 시 새로운 배열을 만들어 외부로 반환해주기 때문에 바로 사용이 가능하다.
 -> 리듀스는 리턴값을 가질 수 있다. 리턴 시 배열의 형태가 아닌 최종 값을 내보내준다.(아래 사진 중 15라는 값이 그 리턴 값이다.)
 
-<img width="300" alt="스크린샷 2022-01-22 오후 3 53 29" src="https://user-images.githubusercontent.com/86910922/150628419-55f09405-1c46-47b1-9237-5748a544f7f6.png"><img width="300" alt="스크린샷 2022-01-22 오후 3 53 14" src="https://user-images.githubusercontent.com/86910922/150628413-a0b22b69-f08a-423e-a7a2-55dcc1c0a180.png"><img width="300" alt="스크린샷 2022-01-22 오후 4 01 26" src="https://user-images.githubusercontent.com/86910922/150628591-f55c3cae-f830-4b5f-9ff8-56c1e6c55ad4.png">
+<img width="300" alt="스크린샷 2022-01-22 오후 3 53 14" src="https://user-images.githubusercontent.com/86910922/150628413-a0b22b69-f08a-423e-a7a2-55dcc1c0a180.png"><img width="300" alt="스크린샷 2022-01-22 오후 4 01 26" src="https://user-images.githubusercontent.com/86910922/150628591-f55c3cae-f830-4b5f-9ff8-56c1e6c55ad4.png">
 
 
